@@ -1,0 +1,27 @@
+# This is the main configuration file for the MkDocs website.
+# Use hash-comments to comment out pages have not been written
+# Reference: http://www.mkdocs.org/user-guide/configuration/
+#
+site_name: Learn / Excel
+pages:
+- Home: index.md
+- Overview: overview.md
+- Data File Import/Export: file-import-export.md
+- Web Services: web-services.md
+- Time Series: time-series.md
+- Charts: charts.md
+- Maps: maps.md
+- Automation: automation.md
+- Resources: resources.md
+# ------- configuration properties ---------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme: material
+repo_url:  https://github.com/OpenWaterFoundation/owf-learn-excel
+site_description:  Open Water Foundation Learn Excel
+site_author:  Open Water Foundation
+site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
+copyright:  Copyright Open Water Foundation
+# Use extra CSS to customize styles, based on theme
+extra_css:
+  - 'css/extra-material-theme.css'
