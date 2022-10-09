@@ -1,10 +1,10 @@
 # owf-learn-Excel #
 
-This repository contains [Open Water Foundation (OWF)](http://openwaterfoundation.org/) Excel learning resources,
+This repository contains [Open Water Foundation (OWF)](https://openwaterfoundation.org/) Excel learning resources,
 which provides guidance for using Microsoft Excel with open datasets.
 The documentation is written for the layperson in order to encourage use of open data with Excel.
 
-See the deployed [OWF / Learn Excel](http://learn.openwaterfoundation.org/owf-learn-excel/) documentation.
+See the deployed [OWF / Learn Excel](https://learn.openwaterfoundation.org/owf-learn-excel/) documentation.
 
 This documentation uses MkDocs to create a static website.
 
@@ -28,7 +28,7 @@ mkdocs-project/       Typical MkDocs project for this documentation.
 ## Development Environment ##
 
 The development environment for contributing to this project requires installation of Python, MkDocs, and Material MkDocs theme.
-Python 2 has been used for development.  See the [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/) documentation
+Python 2 has been used for development.  See the [OWF / Learn MkDocs](https://learn.openwaterfoundation.org/owf-learn-mkdocs/) documentation
 for information about installing these tools.
 
 ## Editing and Viewing Content ##
@@ -70,7 +70,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](https://openwaterfoundation.org/).
 
 ## Contributors ##
 
