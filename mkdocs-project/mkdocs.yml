@@ -3,7 +3,7 @@
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
 site_name: Learn / Excel
-pages:
+nav:
 - Home: index.md
 - Overview: overview.md
 - Data File Import/Export: file-import-export.md
@@ -14,14 +14,28 @@ pages:
 - Automation: automation.md
 - Resources: resources.md
 # ------- configuration properties ---------------
+# Alphabetize
+# ------------------------------------------------
+copyright:  Copyright Open Water Foundation
 # Use Material theme
 # - installation notes:  https://github.com/squidfunk/mkdocs-material
-theme: material
-repo_url:  https://github.com/OpenWaterFoundation/owf-learn-excel
-site_description:  Open Water Foundation Learn Excel
-site_author:  Open Water Foundation
-site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
-copyright:  Copyright Open Water Foundation
+# ------------------------------------------------
 # Use extra CSS to customize styles, based on theme
 extra_css:
   - 'css/extra-material-theme.css'
+# ------------------------------------------------
+# Google Analytics:
+# - see:  https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics
+extra:
+  analytics:
+    provider: google
+    property: 'G-KJFMBY739T'
+# ------------------------------------------------
+site_author:  Open Water Foundation
+site_description:  Open Water Foundation Learn Excel
+# ------------------------------------------------
+# Use Material theme:
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme:
+  name: 'material'
+  favicon: 'images/OWF-Logo-Favicon-32x32.png'
